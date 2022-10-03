@@ -7,14 +7,40 @@
   background-color: #253141;
   height:100vh;
 }
+
 .side-bartop{
   height:100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #253141;
 }
+.side-bartopleft a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+.side-bartopright a{
+  font-size: 10px;
+  color:deepskyblue;
+  text-decoration: none;
+  border:1px solid lightblue;
+  padding: 14px;
+}
+
 .side-barmain{
   height:calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
+}
+.room{
+  padding: 20px 0 40px;
+}
+.room-name a{
+  color: white;
+  text-decoration: none;
 }
 
 .chat{
